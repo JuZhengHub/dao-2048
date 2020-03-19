@@ -11,4 +11,5 @@ FROM daocloud.io/nginx:1.11-alpine
 # Start Nginx and keep it running background and start php
 #CMD sed -i "s/ContainerID: /ContainerID: "$(hostname)"/g" /usr/share/nginx/html/index.html && nginx -g "daemon off;"
 #FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
+RUN rm -rf /etc/apt/source.list.d/* && apt update && apt install -y wget
 RUN cd /root && wget https://www.open-mpi.org/software/ompi/v4.0/downloads/openmpi-4.0.0.tar.gz
