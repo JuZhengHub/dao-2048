@@ -1,5 +1,5 @@
 # Using a compact OS
-#FROM daocloud.io/nginx:1.11-alpine
+FROM daocloud.io/nginx:1.11-alpine
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 
@@ -10,4 +10,5 @@
 
 # Start Nginx and keep it running background and start php
 #CMD sed -i "s/ContainerID: /ContainerID: "$(hostname)"/g" /usr/share/nginx/html/index.html && nginx -g "daemon off;"
-FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
+#FROM nvidia/cuda:10.0-cudnn7-devel-ubuntu16.04
+RUN cd /root && wget https://www.open-mpi.org/software/ompi/v4.0/downloads/openmpi-4.0.0.tar.gz
