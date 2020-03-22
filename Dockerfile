@@ -1,6 +1,6 @@
 # Using a compact OS
 #FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller-amd64:0.25.1
-FROM coredns/coredns:1.6.6
+FROM weaveworks/weave-kube:2.6.2
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 
