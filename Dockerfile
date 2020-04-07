@@ -1,6 +1,6 @@
 # Using a compact OS
 #FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller-amd64:0.25.1
-FROM gcr.io/ml-pipeline/minio:RELEASE.2019-08-14T20-37-41Z-license-compliance
+FROM gcr.io/ml-pipeline/mysql:5.6
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 
