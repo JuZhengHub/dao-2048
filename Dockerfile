@@ -4,7 +4,8 @@
 #FROM gcr.io/ml-pipeline/application-crd-controller:1.0-beta-non-cluster-role
 #FROM gcr.io/tfx-oss-public/ml_metadata_store_server:0.21.1
 #FROM gcr.io/ml-pipeline/envoy:initial
-FROM gcr.io/ml-pipeline/metadata-writer:0.3.0
+#FROM gcr.io/ml-pipeline/metadata-writer:0.3.0
+FROM gcr.io/ml-pipeline/api-server:0.3.0
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 
