@@ -2,7 +2,8 @@
 #FROM quay.io/kubernetes-ingress-controller/nginx-ingress-controller-amd64:0.25.1
 #FROM gcr.io/ml-pipeline/minio:RELEASE.2019-08-14T20-37-41Z-license-compliance
 #FROM gcr.io/ml-pipeline/application-crd-controller:1.0-beta-non-cluster-role
-FROM gcr.io/tfx-oss-public/ml_metadata_store_server:0.21.1
+#FROM gcr.io/tfx-oss-public/ml_metadata_store_server:0.21.1
+FROM gcr.io/ml-pipeline/envoy:initial
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 
