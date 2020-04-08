@@ -7,7 +7,8 @@
 #FROM gcr.io/ml-pipeline/metadata-writer:0.3.0
 #FROM gcr.io/ml-pipeline/api-server:0.3.0
 #FROM gcr.io/ml-pipeline/persistenceagent:0.3.0
-FROM gcr.io/ml-pipeline/scheduledworkflow:0.3.0
+#FROM gcr.io/ml-pipeline/scheduledworkflow:0.3.0
+FROM gcr.io/ml-pipeline/frontend:0.3.0
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 
