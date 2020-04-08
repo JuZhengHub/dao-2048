@@ -12,7 +12,8 @@
 #FROM gcr.io/ml-pipeline/viewer-crd-controller:0.3.0
 #FROM gcr.io/ml-pipeline/visualization-server:0.3.0
 #FROM gcr.io/ml-pipeline/inverse-proxy-agent:0.3.0
-FROM gcr.io/ml-pipeline/workflow-controller:v2.3.0-license-compliance
+#FROM gcr.io/ml-pipeline/workflow-controller:v2.3.0-license-compliance
+FROM gcr.io/ml-pipeline/mysql:5.6
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 
