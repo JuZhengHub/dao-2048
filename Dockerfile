@@ -19,7 +19,8 @@
 #FROM gcr.io/kubeflow-images-public/centraldashboard:v0.5.0
 #FROM gcr.io/kubeflow-images-public/jupyter-web-app:v0.5.0
 #FROM gcr.io/kubeflow-images-public/katib/katib-ui:v0.1.2-alpha-156-g4ab3dbd
-FROM gcr.io/ml-pipeline/api-server:0.1.16
+#FROM gcr.io/ml-pipeline/api-server:0.1.16
+FROM gcr.io/ml-pipeline/persistenceagent:0.1.16
 
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
