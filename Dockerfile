@@ -13,7 +13,11 @@
 #FROM gcr.io/ml-pipeline/visualization-server:0.3.0
 #FROM gcr.io/ml-pipeline/inverse-proxy-agent:0.3.0
 #FROM gcr.io/ml-pipeline/workflow-controller:v2.3.0-license-compliance
-FROM gcr.io/ml-pipeline/mysql:5.6
+#FROM gcr.io/ml-pipeline/mysql:5.6
+
+# kubeflow 0.5
+FROM gcr.io/kubeflow-images-public/centraldashboard:v0.5.0
+
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 
