@@ -23,7 +23,8 @@
 #FROM gcr.io/ml-pipeline/persistenceagent:0.1.16
 #FROM gcr.io/ml-pipeline/scheduledworkflow:0.1.16
 #FROM gcr.io/ml-pipeline/frontend:0.1.16
-FROM gcr.io/ml-pipeline/viewer-crd-controller:0.1.16
+#FROM gcr.io/ml-pipeline/viewer-crd-controller:0.1.16
+FROM gcr.io/kubeflow-images-public/notebook-controller:v20190401-v0.4.0-rc.1-308-g33618cc9-e3b0c4
 
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
