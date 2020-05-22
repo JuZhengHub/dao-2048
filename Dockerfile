@@ -35,7 +35,10 @@
 #FROM gcr.io/kubeflow-images-public/katib/suggestion-hyperband:v0.1.2-alpha-156-g4ab3dbd
 #ROM gcr.io/kubeflow-images-public/katib/suggestion-random:v0.1.2-alpha-156-g4ab3dbd
 #FROM gfleury/k8s-hostpath-provisioner
-FROM torchbox/k8s-hostpath-provisioner
+#FROM torchbox/k8s-hostpath-provisioner
+
+
+FROM elementalnet/cephfs-provisioner
 
 #MAINTAINER Golfen Guo <golfen.guo@daocloud.io>
 
